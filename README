@@ -1,0 +1,14 @@
+A lightweight minor mode for automatically inserting typographical
+quotation marks.
+
+The variable `smartish-double-quote-left' defines the string that
+will be used as the left-double-quote.
+
+The variable `smartish-double-quote-right' defines the string that
+will be used as the right-double-quote.
+
+The variable `smartish-single-quote-left' defines the string that
+will be used as the left-single-quote.
+
+The variable `smartish-single-quote-right' defines the string that
+will be used as the right-single-quote.
