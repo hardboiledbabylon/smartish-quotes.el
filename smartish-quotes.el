@@ -16,7 +16,7 @@
 
 ;; NOTE:
 ;; These were pulled from dfh-str.el and dfh-pair.el to make this
-;; more portable as a single file version.
+;; more portable as a single file.
 
 (defun smartish--insert-pair (pair-left pair-right)
   (if (use-region-p)
