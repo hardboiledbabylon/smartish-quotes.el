@@ -36,7 +36,7 @@
 (defun smartish--preceding-string (len)
   (if (bobp)
       ""
-    (if ( < (- (point) (point-min)) len)
+    (if (< (point) len)
 	""
       (buffer-substring-no-properties (- (point) len) (point)))))
 
