@@ -12,3 +12,9 @@ will be used as the left-single-quote.
 
 The variable `smartish-single-quote-right' defines the string that
 will be used as the right-single-quote.
+
+==LIMITATIONS==
+
+This is really only designed to handle double-quoting styles
+automatically and so only provides a paired insert function for single
+quotes.
